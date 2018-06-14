@@ -153,6 +153,8 @@ function languageCodeto3Letter(lang) {
             return 'swe';
         case 'tr':
             return 'tur';
+        case 'il':
+            return 'heb';
         default:
             console.log("Error language code");
             break;
